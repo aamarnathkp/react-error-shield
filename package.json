@@ -1,6 +1,6 @@
 {
     "name": "react-error-shield",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "This component is designed to enhance application stability by providing a comprehensive error handling mechanism. It acts as a protective layer around your React components, gracefully capturing errors and displaying user-friendly fallback interfaces or messages, without crashing the entire application.",
     "main": "dist/cjs/index.js",
     "module": "dist/esm/index.js",
@@ -9,8 +9,8 @@
         "prepare": "npm run build"
     },
     "peerDependencies": {
-        "react": "^17.0.2",
-        "react-dom": "^17.0.2"
+        "react": ">=17.0.2",
+        "react-dom": ">=17.0.2"
     },
     "repository": {
         "type": "git",
