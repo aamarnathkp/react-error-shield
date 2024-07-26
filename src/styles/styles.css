@@ -1,0 +1,60 @@
+.toast-container {
+    position: relative;
+}
+
+.toast-message {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 40%;
+    padding: 20px;
+    background-color: #ff6f64fa;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reload-button {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    padding: 5px;
+}
+
+.error-message-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 40px;
+}
+
+.error-message-box {
+    border-radius: 5px;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fcdfdffa;
+}
+
+.error-message-heading {
+    font-size: 2rem;
+    color: #ff6f64fa;
+}

@@ -1,0 +1,39 @@
+{
+    "name": "react-error-shield",
+    "version": "1.0.0",
+    "description": "This component is designed to enhance application stability by providing a comprehensive error handling mechanism. It acts as a protective layer around your React components, gracefully capturing errors and displaying user-friendly fallback interfaces or messages, without crashing the entire application.",
+    "main": "dist/cjs/index.js",
+    "module": "dist/esm/index.js",
+    "scripts": {
+        "build": "rollup -c",
+        "prepare": "npm run build"
+    },
+    "peerDependencies": {
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
+    },
+    "keywords": [
+        "react",
+        "hook",
+        "error boundary",
+        "error handler",
+        "toast",
+        "fallbackUI"
+    ],
+    "author": "Amarnath KP",
+    "license": "MIT",
+    "devDependencies": {
+        "@rollup/plugin-commonjs": "^21.1.0",
+        "@rollup/plugin-json": "^6.1.0",
+        "@rollup/plugin-node-resolve": "^13.3.0",
+        "@rollup/plugin-typescript": "^8.5.0",
+        "@types/react": "^18.3.3",
+        "@types/react-dom": "^18.3.0",
+        "rollup": "^2.60.0",
+        "rollup-plugin-peer-deps-external": "^2.2.4",
+        "rollup-plugin-postcss": "^4.0.2",
+        "rollup-plugin-terser": "^7.0.2",
+        "tslib": "^2.6.3",
+        "typescript": "^4.5.2"
+    }
+}
