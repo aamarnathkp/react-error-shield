@@ -1,2 +1,1 @@
-// src/index.ts
-export { default as ErrorHandler } from "./ErrorHandler";
+export { default as ErrorShield } from "./ErrorShield";

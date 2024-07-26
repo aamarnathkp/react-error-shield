@@ -6,7 +6,7 @@ import { ErrorHandlerProps, ErrorHandlerState } from "./types";
 /**
  * Represents an error handler component that can display different types of error messages or fallback UI.
  */
-class ErrorHandler extends React.Component<
+class ErrorShield extends React.Component<
     ErrorHandlerProps,
     ErrorHandlerState
 > {
@@ -96,4 +96,4 @@ class ErrorHandler extends React.Component<
     }
 }
 
-export default ErrorHandler;
+export default ErrorShield;

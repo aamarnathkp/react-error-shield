@@ -25,13 +25,13 @@ npm install react-error-shield
 ## Usage/Examples
 
 ```javascript
-import { ErrorHandler } from "react-error-shield";
+import { ErrorShield } from "react-error-shield";
 
 function App() {
     return (
-        <ErrorHandler type='TOAST'>
+        <ErrorShield type='TOAST'>
             <App />
-        </ErrorHandler>
+        </ErrorShield>
     );
 }
 ```
@@ -39,36 +39,36 @@ function App() {
 ### Toast
 
 ```javascript
-<ErrorHandler
+<ErrorShield
     type='TOAST'
     errorBackgroundColor='RED'
     customErrorMsg='Something went wrong! Please try again.'
     refreshPage>
     // ---- child components ---
-</ErrorHandler>
+</ErrorShield>
 ```
 
 ### Error
 
 ```javascript
-<ErrorHandler
+<ErrorShield
     type='ERROR'
     errorBackgroundColor='RED'
     customErrorMsg='Something went wrong! Please try again.'
     customSecondaryMsg='This is a secondary message.'
     refreshPage>
     // ---- child components ---
-</ErrorHandler>
+</ErrorShield>
 ```
 
 ### Fallback UI
 
 ```javascript
-<ErrorHandler
+<ErrorShield
     type='FALLBACK'
     fallbackUI={<div>Something went wrong! Please try again.</div>}>
     // ---- child components ---
-</ErrorHandler>
+</ErrorShield>
 ```
 
 ## Props
