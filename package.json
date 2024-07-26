@@ -12,6 +12,10 @@
         "react": "^17.0.2",
         "react-dom": "^17.0.2"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/aamarnathkp/react-error-shield"
+    },
     "keywords": [
         "react",
         "hook",
